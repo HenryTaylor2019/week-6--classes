@@ -23,3 +23,9 @@ $mark = new Person ("Mark", "Wales", 35);
 $jack = new Person ("Jack", "Sparrow", 35);
 
 var_dump($mark->fullName());
+
+
+require_once "filename.php";
+
+namespace Space;
+$var = Space/var();
